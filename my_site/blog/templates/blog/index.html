@@ -1,0 +1,14 @@
+<!-- my_syte\blog\templates\blog\index.html -->
+{% extends 'base.html' %}
+{% block content %}
+    <div class="leftcolumn">
+        {% for post in posts %}
+            <div class="card">
+                <h2>{{ post.title }}</h2>
+                <h5> {{ post.date }}. {{ post.description }}...</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p> {{ post.content }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

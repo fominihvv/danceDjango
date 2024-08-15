@@ -22,7 +22,8 @@ from .views import index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='global_index'),
-    path('horoscope/', include('horoscope.urls')),
-    path('week_days/', include('week_days.urls')),
-    path('calculate_geometry/', include('geometry.urls')),
+    path('horoscope/', include('horoscope.urls'), name='horoscope'),
+    path('week_days/', include('week_days.urls'), name='week_days'),
+    path('geometry/', include('geometry.urls'), name='geometry'),
+    path('primer/', include('primer.urls')),
 ]

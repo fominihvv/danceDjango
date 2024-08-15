@@ -1,0 +1,27 @@
+<!-- my_page\horoscope\templates\horoscope\info_zodiac.html -->
+{% extends 'horoscope/base.html' %}
+
+{% load static %}
+
+{% block css_additional %}
+   <link rel="stylesheet" href=" {% static 'horoscope/css/info.css' %}">
+{% endblock %}
+
+{% block title %}
+    {% if zodiac %}
+        <h1> Гороскоп для знака {{ zodiac.get_ru_name |upper }} </h1>
+    {% else %}
+        <h2>Неизвестный знак зодиака</h2>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    {% if zodiac %}
+        <h2>{{ zodiac.get_ru_name }}</h2>
+        {{ zodiac.description }} <br>
+        c {{ zodiac.get_start_date }} по {{ zodiac.get_end_date }} </br></p>
+    {% else %}
+        <h2>Неизвестный знак зодиака</h2>
+    {% endif %}
+    <a href="{% url 'horoscope_index_by_name' %}">Вернуться в меню выбора знака</a>
+{% endblock %}

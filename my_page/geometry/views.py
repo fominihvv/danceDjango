@@ -3,7 +3,8 @@ from math import pi
 
 from django.http import HttpResponse, HttpRequest, HttpResponseRedirect
 from django.urls import reverse
-
+from django.template.loader import render_to_string
+from django.shortcuts import render
 
 @dataclass
 class Rectangle:
@@ -32,16 +33,15 @@ def index(request: HttpRequest) -> HttpResponse:
 
 
 def rectangle_area(request: HttpRequest, width: int, height: int) -> HttpResponse:
-    return HttpResponse(
-        f'<h1>Площадь прямоугольника размером {width}x{height} равна {Rectangle(width, height).area}</h1>')
+    return render(request, 'geometry/rectangle.html', {'width': width, 'height': height, 'area': width * height})
 
 
 def square_area(request: HttpRequest, width: int) -> HttpResponse:
-    return HttpResponse(f'<h1>Площадь квадрата размером {width}x{width} равна {Square(width).area}</h1>')
+    return render(request, 'geometry/square.html', {'width': width, 'area': width ** 2})
 
 
 def circle_area(request: HttpRequest, radius: int) -> HttpResponse:
-    return HttpResponse(f'<h1>Площадь круга с радиусом {radius} равна {Circle(radius).area:.2f}</h1>')
+    return render(request, 'geometry/circle.html', {'radius': radius, 'area': pi * (radius ** 2)})
 
 
 def get_rectangle_area(request: HttpRequest, width: int, height: int) -> HttpResponse:

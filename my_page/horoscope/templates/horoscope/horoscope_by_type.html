@@ -1,0 +1,23 @@
+<!-- my_page\horoscope\templates\horoscope\horoscope_by_type.html -->
+
+{% extends 'horoscope/base.html' %}
+
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'horoscope/css/index.css' %}">
+{% endblock %}
+
+{% block title %}
+    <h1>Выбор знака зодиака в определённой стихии</h1>
+{% endblock %}
+
+{% block content %}
+    <ul>
+        {% for sign in signs.values %}
+            {% if sign.get_eng_type_element == type_element %}
+                <li><a href="{% url 'get_horoscope_by_name' sign=sign.get_eng_name %}">{{ sign.get_ru_name }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    <a href="{% url 'horoscope_index' %}">Вернуться в меню</a>
+{% endblock %}

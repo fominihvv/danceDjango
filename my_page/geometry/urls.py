@@ -3,7 +3,7 @@ from django.urls import path
 from .views import *
 
 urlpatterns = [
-    path('', index, name='geometry_index'),
+    path('', index, name='geometry'),
     path('rectangle/<int:width>/<int:height>', rectangle_area, name='rectangle_area'),
     path('circle/<int:radius>', circle_area, name='circle_area'),
     path('square/<int:width>', square_area, name = 'square_area'),

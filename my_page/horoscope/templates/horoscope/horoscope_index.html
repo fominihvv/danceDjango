@@ -1,0 +1,21 @@
+<!-- my_page\horoscope\templates\horoscope\horoscope_index.html -->
+{% extends 'horoscope/base.html' %}
+
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'horoscope/css/index.css' %}">
+{% endblock %}
+
+
+
+{% block title %}
+    <h1>Выбор знака зодиака</h1>
+{% endblock %}
+
+{% block content %}
+    <ul>
+        <li><a href="{% url 'horoscope_index_by_name' %}">По имени</a></li>
+        <li><a href="{% url 'horoscope_index_by_type' %}">По типу стихии</a></li>
+    </ul>
+    <a href="{% url 'global_index' %}">Вернуться в основное меню</a>
+{% endblock %}

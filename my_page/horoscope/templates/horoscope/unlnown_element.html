@@ -1,0 +1,10 @@
+<!-- my_page\horoscope\templates\horoscope\unlnown_element.html -->\
+{% extends 'horoscope/base.html' %}
+
+{% block title %}
+    <h1>Неизвестная стихия {{ element }}</h1>
+{% endblock %}
+
+{% block content %}
+    <a href="{% url 'horoscope_index' %}">Вернуться в меню</a>
+{% endblock %}

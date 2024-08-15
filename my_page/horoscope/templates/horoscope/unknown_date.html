@@ -1,0 +1,10 @@
+<!-- my_page\horoscope\templates\horoscope\unknown_date.html -->
+{% extends 'horoscope/base.html' %}
+
+{% block title %}
+    <h1>Некорректная дата {{ date }}</h1>
+{% endblock %}
+
+{% block content %}
+    <a href="{% url 'horoscope_index_by_name' %}">Вернуться в меню выбора знака</a>
+{% endblock %}

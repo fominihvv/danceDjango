@@ -1,0 +1,20 @@
+<!-- my_page\horoscope\templates\horoscope\horoscope_index_by_type.html -->
+{% extends 'horoscope/base.html' %}
+
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'horoscope/css/index.css' %}">
+{% endblock %}
+
+{% block title %}
+    <h1> Выберите стихию </h1>
+{% endblock %}
+
+{% block content %}
+    <ul>
+        {% for type_element_eng, type_element_ru in type_elements.items %}
+            <li><a href="{% url 'horoscope_by_type' type_element=type_element_eng %}"> {{ type_element_ru }}</a></li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'horoscope_index' %}">Вернуться в меню</a>
+{% endblock %}

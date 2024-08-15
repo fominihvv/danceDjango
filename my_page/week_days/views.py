@@ -1,12 +1,14 @@
 from django.http import HttpResponse, HttpRequest, HttpResponseNotFound, HttpResponseRedirect
 from django.urls import reverse
+from django.template.loader import render_to_string
 
 week_days = {'monday': 'Понедельник', 'tuesday': 'Вторник', 'wednesday': 'Среда', 'thursday': 'Четверг',
              'friday': 'Пятница', 'saturday': 'Суббота', 'sunday': 'Воскресенье'}
 
 
 def index(request: HttpRequest) -> HttpResponse:
-    return HttpResponse('<h1>задачи на день</h1>')
+    response = render_to_string('week_days/greeting.html')
+    return HttpResponse(response)
 
 
 def get_task_by_weekday_name(request: HttpRequest, weekday: str) -> HttpResponse:
