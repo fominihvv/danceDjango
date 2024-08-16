@@ -13,8 +13,11 @@
 {% block content %}
     <ul>
         {% for sign in signs.values %}
-            <li><a href="{% url 'get_horoscope_by_name' sign=sign.get_eng_name %}">{{ sign.get_ru_name }}</a></li>
+            <li><a href="{% url 'get_horoscope_by_name' sign=sign.get_eng_name %}">
+                <img src={{ MEDIA_URL }}{{ sign.get_eng_name }}.png width="200" height="150">
+                <br> {{ sign.get_ru_name }}</a></li>
+
         {% endfor %}
     </ul>
-    <a href="{% url 'horoscope_index' %}">Вернуться в меню</a>
+    <a href="{% url 'horoscope' %}">Вернуться в меню</a>
 {% endblock %}

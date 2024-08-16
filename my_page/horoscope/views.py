@@ -6,10 +6,8 @@ from django.urls import reverse
 
 
 class ZodiacSign:
-    zodiac_sign_name_ru = ['Овен', 'Телец', 'Близнецы', 'Рак', 'Лев', 'Дева', 'Весы', 'Скорпион', 'Стрелец', 'Козерог',
-                           'Водолей', 'Рыбы']
-    zodiac_sign_name_eng = ['aries', 'taurus', 'gemini', 'cancer', 'leon', 'virgo', 'libra', 'scorpio', 'sagittarius',
-                            'capricorn', 'aquarius', 'pisces']
+    zodiac_sign_name_ru = ['Овен',    'Телец', 'Близнецы', 'Рак',   'Лев',  'Дева',  'Весы', 'Скорпион', 'Стрелец', 'Козерог', 'Водолей', 'Рыбы']
+    zodiac_sign_name_eng = ['aries', 'taurus', 'gemini',  'cancer', 'leon', 'virgo', 'libra', 'scorpio', 'sagittarius', 'capricorn', 'aquarius', 'pisces']
     zodiac_type_element_ru = ['Огонь', 'Земля', 'Воздух', 'Вода']
     zodiac_type_element_eng = ['fire', 'earth', 'air', 'water']
     months = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь',
@@ -93,7 +91,6 @@ class Horoscope:
 
     def get_horoscope_by_name(self, request: HttpRequest, sign: str) -> HttpResponse:
         zodiac = self.signs.get(sign)
-        print(sign)
         if zodiac:
             return render(request, 'horoscope/info_zodiac.html', {'zodiac': zodiac, 'title': 'Информация о знаке зодиака'})
         return render(request, 'horoscope/unknown_sign.html', {'zodiac': sign, 'title': 'Неизвестный знак зодиака'})
