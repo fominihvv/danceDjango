@@ -8,7 +8,7 @@
 {% block content %}
     <ul>
         {% for project_name, project_url in projects.items %}
-            <li><a href="{% url project_url %}">{{ project_name }}<img src= "{% static 'css/horoscope.png' %}" /></a></li>
+            <li><a href="{% url project_url %}"><img src= {{ MEDIA_URL }}{{ project_url }}.png / width="200" height="200"> <br> {{ project_name }}</a></li>
         {% endfor %}
     </ul>
 {% endblock %}
