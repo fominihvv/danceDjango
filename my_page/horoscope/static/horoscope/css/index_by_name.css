@@ -11,9 +11,6 @@ ul {
     border-radius: 20px;
     margin: 2rem auto;
     padding: 1px;
-    position: absolute;
-    top: 30%;
-    /*left: 50%;*/
 }
 
 ul li {

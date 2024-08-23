@@ -1,5 +1,4 @@
 <!-- my_page\horoscope\templates\horoscope\horoscope_by_type.html -->
-
 {% extends 'horoscope/base.html' %}
 
 {% load static %}
@@ -15,10 +14,13 @@
     <ul>
         {% for sign in signs.values %}
             {% if sign.get_eng_type_element == type_element %}
-                <li><a href="{% url 'get_horoscope_by_name' sign=sign.get_eng_name %}">{{ sign.get_ru_name }}</a></li>
-
+                <li><a href="{% url 'get_horoscope_by_name' sign=sign.get_eng_name %}">
+                    <img src={{ MEDIA_URL }}{{ sign.get_eng_name }}.png width="180" height="140">
+                    <br> {{ sign.get_ru_name }}</a>
+                </li>
             {% endif %}
         {% endfor %}
     </ul>
+
     <a href="{% url 'horoscope' %}">Вернуться в меню</a>
 {% endblock %}

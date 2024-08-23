@@ -4,12 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75358b9f-070e-4233-8820-dca20b3dac78" name="Changes" comment="Джанго потанцуем 15 августа вечер">
+    <list default="true" id="75358b9f-070e-4233-8820-dca20b3dac78" name="Changes" comment="Джанго потанцуем. Вечер 16 августа. Стартовая + гороскоп_стартовая с картинками">
+      <change afterPath="$PROJECT_DIR$/my_page/horoscope/static/horoscope/css/index_by_name.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_page/horoscope/static/horoscope/css/index_by_type.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_page/movie_app/templates/movie_app/all_movies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_page/movie_app/templates/movie_app/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_page/movie_app/templates/movie_app/movie_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/horoscope/static/horoscope/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/horoscope/static/horoscope/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/horoscope/templates/horoscope/horoscope_by_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/horoscope/templates/horoscope/horoscope_by_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/horoscope/templates/horoscope/horoscope_index_by_name.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/horoscope/templates/horoscope/horoscope_index_by_name.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/horoscope/templates/horoscope/horoscope_index_by_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/horoscope/templates/horoscope/horoscope_index_by_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/horoscope/templates/horoscope/info_zodiac.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/horoscope/templates/horoscope/info_zodiac.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_page/my_page/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/my_page/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_page/my_page/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/my_page/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/my_page/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/my_page/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/primer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/book_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/primer/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/primer/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/primer/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/movie_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/primer/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/primer/static/primer/css/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/primer/templates/primer/primer_base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/primer/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/primer/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/primer/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_page/static/css/horoscope.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my_page/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_page/templates/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_page/templates/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -51,24 +73,32 @@
     &quot;Django Server.Blog.executor&quot;: &quot;Run&quot;,
     &quot;Django Server.djangoProject.executor&quot;: &quot;Debug&quot;,
     &quot;Python.Blog.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MovieProject.executor&quot;: &quot;Run&quot;,
     &quot;Python.Zodiac.executor&quot;: &quot;Run&quot;,
+    &quot;Python.models (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.models.executor&quot;: &quot;Run&quot;,
     &quot;Python.views (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.views.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fominyh_vv/PycharmProjects/djangoProject/my_page/horoscope/templates/horoscope&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fominyh_vv/PycharmProjects/djangoProject/my_page/movie_app/templates/movie_app&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fominyh_vv\PycharmProjects\djangoProject\my_page\movie_app\templates\movie_app" />
+      <recent name="C:\Users\fominyh_vv\PycharmProjects\djangoProject\my_page\horoscope\static\horoscope\css" />
+      <recent name="C:\Users\fominyh_vv\PycharmProjects\djangoProject\my_page\static\css" />
       <recent name="C:\Users\fominyh_vv\PycharmProjects\djangoProject\my_page\horoscope\templates\horoscope" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -128,52 +158,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="views (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="djangoProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_site/blog" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_site/blog/views.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="djangoProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_page/week_days" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_page/week_days/views.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="djangoProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="djangoProject" />
       <option name="ENV_FILES" value="" />
@@ -201,18 +185,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django Server.djangoProject" />
       <item itemvalue="Python.Blog" />
       <item itemvalue="Python.Zodiac" />
-      <item itemvalue="Python.views (1)" />
-      <item itemvalue="Python.views" />
+      <item itemvalue="Django Server.djangoProject" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.views (1)" />
-        <item itemvalue="Python.views" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -242,7 +218,10 @@
       <workItem from="1723717958036" duration="15840000" />
       <workItem from="1723803000524" duration="4084000" />
       <workItem from="1723807428989" duration="879000" />
-      <workItem from="1723808314197" duration="705000" />
+      <workItem from="1723808314197" duration="11824000" />
+      <workItem from="1724315786938" duration="12299000" />
+      <workItem from="1724393753255" duration="9164000" />
+      <workItem from="1724407879027" duration="5577000" />
     </task>
     <task id="LOCAL-00001" summary="Джанго потанцуем 07 августа день">
       <option name="closed" value="true" />
@@ -276,7 +255,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723731999495</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Джанго потанцуем 15 августа вечер">
+      <option name="closed" value="true" />
+      <created>1723809024879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723809024879</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Джанго потанцуем 16 августа. Рабочая стартовая страница с картинками">
+      <option name="closed" value="true" />
+      <created>1723809068309</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723809068309</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Джанго потанцуем. Вечер 16 августа. Стартовая + гороскоп_стартовая с картинками">
+      <option name="closed" value="true" />
+      <created>1723817521835</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723817521835</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +299,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Джанго потанцуем 07 августа день" />
     <MESSAGE value="Джанго потанцуем 15 августа вечер" />
-    <option name="LAST_COMMIT_MESSAGE" value="Джанго потанцуем 15 августа вечер" />
+    <MESSAGE value="Джанго потанцуем 16 августа. Рабочая стартовая страница с картинками" />
+    <MESSAGE value="Джанго потанцуем. Вечер 16 августа. Стартовая + гороскоп_стартовая с картинками" />
+    <option name="LAST_COMMIT_MESSAGE" value="Джанго потанцуем. Вечер 16 августа. Стартовая + гороскоп_стартовая с картинками" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -311,8 +316,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/djangoProject$views.coverage" NAME="views Coverage Results" MODIFIED="1722863394718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_page/week_days" />
-    <SUITE FILE_PATH="coverage/djangoProject$Zodiac.coverage" NAME="Zodiac Coverage Results" MODIFIED="1723808835584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\fominyh_vv\PycharmProjects\djangoProject\my_page" />
+    <SUITE FILE_PATH="coverage/djangoProject$models.coverage" NAME="models Coverage Results" MODIFIED="1724326532575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_page/book_app" />
+    <SUITE FILE_PATH="coverage/djangoProject$MovieProject.coverage" NAME="MovieProject Coverage Results" MODIFIED="1724327030575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\fominyh_vv\PycharmProjects\djangoProject\my_page" />
+    <SUITE FILE_PATH="coverage/djangoProject$models__1_.coverage" NAME="models (1) Coverage Results" MODIFIED="1724396049613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_page/movie_project" />
+    <SUITE FILE_PATH="coverage/djangoProject$Zodiac.coverage" NAME="Zodiac Coverage Results" MODIFIED="1724409213340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\fominyh_vv\PycharmProjects\djangoProject\my_page" />
     <SUITE FILE_PATH="coverage/djangoProject$views__1_.coverage" NAME="views (1) Coverage Results" MODIFIED="1723451288106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_site/blog" />
-    <SUITE FILE_PATH="coverage/djangoProject$Blog.coverage" NAME="Blog Coverage Results" MODIFIED="1723803008036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\fominyh_vv\PycharmProjects\djangoProject\my_site" />
+    <SUITE FILE_PATH="coverage/djangoProject$Blog.coverage" NAME="Blog Coverage Results" MODIFIED="1724408368434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\fominyh_vv\PycharmProjects\djangoProject\my_site" />
   </component>
 </project>

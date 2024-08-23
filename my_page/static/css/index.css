@@ -1,9 +1,9 @@
 /* my_page\static\css\index.css */
 
 ul {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
     list-style-type: none;
     /*background-color: #f1f1f1; */
     position: absolute;

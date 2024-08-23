@@ -3,7 +3,7 @@
 
 {% load static %}
 {% block css_additional %}
-    <link rel="stylesheet" href=" {% static 'horoscope/css/index.css' %}">
+    <link rel="stylesheet" href=" {% static 'horoscope/css/index_by_name.css' %}">
 {% endblock %}
 
 {% block title %}
@@ -14,9 +14,9 @@
     <ul>
         {% for sign in signs.values %}
             <li><a href="{% url 'get_horoscope_by_name' sign=sign.get_eng_name %}">
-                <img src={{ MEDIA_URL }}{{ sign.get_eng_name }}.png width="200" height="150">
-                <br> {{ sign.get_ru_name }}</a></li>
-
+                <img src={{ MEDIA_URL }}{{ sign.get_eng_name }}.png width="180" height="140">
+                <br> {{ sign.get_ru_name }}</a>
+            </li>
         {% endfor %}
     </ul>
     <a href="{% url 'horoscope' %}">Вернуться в меню</a>

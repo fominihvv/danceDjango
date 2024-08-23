@@ -29,7 +29,8 @@ urlpatterns = [
     path('horoscope/', include('horoscope.urls'), name='horoscope'),
     path('week_days/', include('week_days.urls'), name='week_days'),
     path('geometry/', include('geometry.urls'), name='geometry'),
-    path('primer/', include('primer.urls')),
+    path('movie_app/', include('movie_app.urls'), name='movie_app'),
+    path('book_app/', include('book_app.urls'), name='book_app'),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

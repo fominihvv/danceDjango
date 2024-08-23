@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'horoscope.apps.HoroscopeConfig',
     'week_days.apps.WeekDaysConfig',
     'geometry.apps.GeometryConfig',
-    'primer.apps.PrimerConfig',
+    'book_app.apps.BookAppConfig',
+    'movie_app.apps.MovieAppConfig',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [

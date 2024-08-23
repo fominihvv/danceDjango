@@ -17,6 +17,7 @@
 
 {% block content %}
     {% if zodiac %}
+        <img src={{ MEDIA_URL }}{{ zodiac.get_eng_name }}.png width="200" height="150">
         <h2>{{ zodiac.get_ru_name }}</h2>
         {{ zodiac.description }} <br>
         c {{ zodiac.get_start_date }} по {{ zodiac.get_end_date }} </br></p>
